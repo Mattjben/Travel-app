@@ -14,13 +14,21 @@
           </div>
 
          
-            <div class="card style="width: 1rem; " >
-              <div class="table-cont d-flex h-100 p-3 mx-auto flex-column">
-            {{ table|safe }}</div> </div><div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+            <div class="card"  style=" height: 30rem;" >
+             
+              <div class="table-cont d-flex p-3 mx-auto flex-column">
+            {{ table|safe }}</div> </div><div class="cover-container d-flex h-100  mx-auto flex-column">
            
         <p class="lead">
 
-          <a href="Import Excel" class="btn btn-lg btn-secondary">Import Excel</a>
+          <div class="card form; " >
+            
+          <form method="POST" action="/import" enctype="multipart/form-data">
+            {{ form.csrf_token }}
+            {{ form.file.label }} {{ form.file }}
+            {{ form.submit(class_='btn btn-primary') }}
+        </form>
+      </div>
         </p>
         
         

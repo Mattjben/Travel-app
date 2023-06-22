@@ -1,0 +1,15 @@
+Income and Expense Transaction Report,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9
+2023-06-01 - 2023-06-30,,,,,,,,,
+,,,,,,,,,
+Category / type,Date,Merchant,Amount,Currency,Labels,Account,Note,Total transactions,Total amount
+,,,,,,,,,
+Expense,,,,,,,,,
+,,,,,,,,,
+Canada,,,,,,,,2,($95.12) AUD
+,2023-06-06,Bcferries,-43.47,AUD,Transport,Trip Savings,Ferry trips,,
+,2023-06-10,Whistler - Vancouver Bus,-51.65,AUD,Transport,Trip Savings,,,
+Spain,,,,,,,,4,($115.54) AUD
+,2023-06-06,iyro (Seville To Madrid),-40.92,AUD,Transport,Trip Savings,,,
+,2023-06-12,Train (Porto-lisbon),-20.9,AUD,Transport,Trip Savings,,,
+,2023-06-15,Lagos To Seville ,-37.83,AUD,Transport,Trip Savings,,,
+,2023-06-15,Lisbon To Lagos,-15.89,AUD,Transport,Trip Savings,,,

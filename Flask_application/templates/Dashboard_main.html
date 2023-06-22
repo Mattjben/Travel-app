@@ -1,0 +1,15 @@
+{% extends 'Base.html' %}
+
+{%block content%}
+<body>
+    <h1>Imported Data</h1>
+    {{ data|safe }}
+    <form method="POST" action="/download">
+        {{ form.hidden_tag() }}
+        <div class="button-container">
+            {{ form.submit(class_='button') }}
+        </div>
+    </form>
+</body>
+
+{%endblock content%}
